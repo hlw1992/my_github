@@ -44,9 +44,6 @@ export default {
       list:[]
     };
   },
-  created() {
-    // this.getWiki();
-  },
   methods: {
     getWiki(str) {
       jsonp("https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=20&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch="+str, null, (err, data) => {
@@ -94,52 +91,58 @@ export default {
 #search{
   height: 84vh;
   box-shadow: 0 0 10px #1e1f26 inset;
-  background: url(https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png) center center no-repeat fixed;
   background-color: #092B40;
+  background: url(https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png) center center no-repeat fixed;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100vw;
 }
 .main{
+  /* height有必要, 滚动条限制在main里 */
   height: 84vh;
 }
 .searchBar{
   /* background-color: lightcoral; */
   /* 开始 */
-  padding-top:15%;
+  padding-top:30vh;
+
 }
 /* 搜索出结果后 */
 .afterSearch{
   animation: searchBarUp 2s ease;
-  padding-top:5%;
+  padding-top:5vh;
+
 }
 @keyframes searchBarUp{
   from {
-    padding-top:15%;
+    padding-top:30vh;
+
   }
   to {
-    padding-top:5%;
+    padding-top:5vh;
+
   }
 }
 /* 搜索栏样式 没毛病 */
 .ipt{
-  width:30%;
+  width:30vw;
 }
 .el-button+.el-button{
   margin-left: 0;
 }
 .sBtn{
-  width: 40px;
+  width: 36px;
   padding:11px 10px;
 }
 /* 内容显示区域 */
-/* .showArticle{
-  background-color: lightblue;
-} */
+
 .article{
   margin: 0 auto 0.2rem;
-  width: 700px;
+  width:54vw;
   background-color: #fff;
   border: 2px solid lightgray;
   border-radius:5px;
-  /* padding: 0.5rem 1rem; */
 }
 .article:first-of-type{
   margin-top: 3rem;

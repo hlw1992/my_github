@@ -90,20 +90,20 @@ export default {
   height: 100vh;
   width: 100%;
   /* background-color: darkgray; */
-  font-size: 36px;
+  font-size: 2.5rem;
   text-align: center;
 }
 .el-dropdown-link {
   cursor: pointer;
   color: white;
-  font-size: 36px;
+  font-size: 2.5rem;
 }
 .el-icon-arrow-down {
-  font-size: 36px;
+  font-size: 2.5rem;
 }
 .header {
   height: 16vh !important;
-  padding-top: 30px;
+  padding-top: 4vh;
   background-color:#1E1F26;
   /* box-shadow: 0 0 10px #1E1F26; */
 }

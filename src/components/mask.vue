@@ -62,7 +62,7 @@ export default {
   height: 100vh;
   text-align: center;
   color: white;
-  font-size: 36px;
+  font-size: 2.5rem;
   background: #222222;
   position: fixed;
   top: 0;
@@ -73,7 +73,7 @@ export default {
 }
 .header {
   height: 35vh !important;
-  padding-top: 30px;
+  padding-top: 4vh;
 }
 .header a{
   color:white;

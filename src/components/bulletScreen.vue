@@ -68,7 +68,7 @@
             size="mini"
           ></el-color-picker>
         </el-col>
-        <el-col :span="14">
+        <el-col :span="12">
           <el-input
             type="text"
             placeholder="说点什么?"
@@ -215,12 +215,13 @@ export default {
   height: 84vh;
 }
 .justBlank {
-  height: 20px;
+  /* height: 20px; */
+  height: 3vh;
 }
 .screenArea {
   background-color: gray !important;
-  width: 900px;
-  height: 400px;
+  width:70vw;
+  height: 68vh;
   margin: 0 auto;
   position: relative;
   box-shadow: 0 0 2px gray;
@@ -255,9 +256,9 @@ export default {
 }
 .sendBullet {
   box-shadow: 0 0 2px gray;
-  width: 900px;
+  width: 70vw;
   margin: 0 auto;
-  padding-bottom: 5px;
+  padding-bottom: 1vh;
 }
 .elSwitch {
   margin-top: 10px;
@@ -286,7 +287,7 @@ export default {
     }
 }
 /* top弹幕样式 */
-/* 这里我用了取巧的方式, 本来应该两秒后直接消失, 但是js不知咋写, 就用了透明度 */
+/* 这里用了取巧的方式, 本来应该两秒后直接消失, 但是js不知咋写, 就用了透明度 */
 .top{
   position: absolute;
   opacity:0;

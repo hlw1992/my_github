@@ -177,32 +177,35 @@ export default {
 .title {
 	/* background-color: blue; */
 	color: white;
-	font-size: 1.2rem;
-	height: 4rem;
-	line-height: 4rem;
+	font-size: 1.5vw;
+	height: 10vh;
+	line-height:10vh;
 }
 .monitor {
 	border: 2px solid black;
 	background-color: #e6e6e6;
 	text-align: right;
-	padding: 0.5rem;
-	height: 3rem;
+	padding: 1vh;
+	height: 8vh;
 }
 .monitor p {
 	margin: 0;
 }
 .monitor p:first-child {
-	font-size: 1.3rem;
+	font-size:1.6vw;
 	color: darkblue;
-	height: 1.3rem;
+	height: 1.6vw;
+	line-height: 1.6vw;
 }
 .monitor p:nth-child(2) {
-	font-size: 1.7rem;
+	font-size:1.8vw;
 	color: darkred;
-	height: 1.7rem;
+	height: 1.8vw;
+	line-height: 1.8vw;
+	margin-top:1vh; 
 }
 .press {
-	margin-top: 1rem;
+	margin-top:2.5vh;
 	/* background-color: green; */
 	height: 63%;
 	display: flex;
@@ -213,7 +216,7 @@ export default {
 	height: 20%;
 	width: 100%;
 	/* background-color:yellow; */
-	margin: 0.6rem 0 0;
+	margin: 2vh 0 0;
 	display: flex;
 	justify-content: space-between;
 }

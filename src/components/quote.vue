@@ -100,31 +100,32 @@ export default {
 }
 .inside {
   background-color: #fff;
-  width: 650px;
-  height: 350px;
+  width:50vw;
+  height: 60vh;
+  border-radius: 5px;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -325px;
-  margin-top: -175px;
-  border-radius: 5px;
+  margin-left: -25vw;
+  margin-top:-30vh;
 }
 .deepInside {
   /* border: 1px solid black; */
-  width: 550px;
-  height: 280px;
+  width:43vw;
+  height: 47vh;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -275px;
-  margin-top: -140px;
+  margin-left: -21.5vw;
+  /* margin-top: -140px; */
+  margin-top:-23.5vh;
 }
 .showQuote {
   /* background-color: black; */
   /* color: darkgray; */
-  height: 190px;
+  height: 32vh;
   width: 100%;
-  font-size: 28px;
+  font-size: 1.5rem;
   display: table;
 }
 .quote {
@@ -133,13 +134,11 @@ export default {
   vertical-align: middle;
   width: 100%;
   word-break: break-all;
-  /* word-wrap: break-word;
-    overflow-wrap:break-word; */
 }
 .showAuthor {
   /* background-color: blue; */
   /* color: darkgray; */
-  height: 20px;
+  height: 3vh;
   width: 100%;
   display: table;
 }
@@ -155,8 +154,8 @@ export default {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 40px;
-  height: 38px;
+  width: 3vw;
+  height: 6vh;
   /* background-color: darkgray; */
   border-radius: 5px;
   cursor: pointer;
@@ -167,15 +166,15 @@ export default {
 .wx i {
   color: white;
   font-size: 16px;
-  padding-bottom: 8px;
-  vertical-align: middle;
+  padding-top: 1.5vh;
+  vertical-align: top;
 }
 .qq {
   position: absolute;
   left: 8%;
   bottom: 0;
-  width: 40px;
-  height: 38px;
+  width: 3vw;
+  height: 6vh;
   /* background-color: darkgray; */
   border-radius: 5px;
   cursor: pointer;
@@ -186,15 +185,15 @@ export default {
 .qq i {
   color: white;
   font-size: 16px;
-  padding-bottom: 8px;
-  vertical-align: middle;
+  padding-top: 1.5vh;
+  vertical-align: top;
 }
 .newone {
   position: absolute;
   right: 0;
   bottom: 0;
   width: 100px;
-  height: 38px;
+  height: 6vh;
   /* background-color: darkgray; */
   border-radius: 5px;
   cursor: pointer;

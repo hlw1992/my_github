@@ -17,10 +17,10 @@
             </div>
           </el-col>
         </el-row>
-        <h1 style="margin:0;">留下你的脚印</h1>
+        <p style="margin:0;">留下你的脚印</p>
         <!-- 一条线 -->
-        <div style="margin: 20px 46% 20px 46%;border-top:3px solid #B99D61;"></div>
-        <p style="margin:0;font-style:italic;font-size:16px;">走过路过，不要错过</p>
+        <!-- <div style="margin: 20px 46% 20px 46%;border-top:3px solid #B99D61;"></div> -->
+        <!-- <p style="margin:0;font-style:italic;font-size:16px;">走过路过，不要错过</p> -->
       </el-header>
       <el-main class="main">
         <el-row>
@@ -133,8 +133,8 @@ export default {
 }
 .header {
   height: 40vh !important;
-  font-size: 36px;
-  padding-top: 30px;
+  font-size: 2.5rem;
+  padding-top: 4vh;
   color: white;
   background-image: url("../assets/images/vista.jpg");
 }

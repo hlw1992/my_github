@@ -30,7 +30,6 @@
                   <h1>{{item.toolName}}</h1>
                   <h6>{{item.toolDescribtion}}</h6>
                   <router-link :to='item.toolPath' class='insideBtn'>查看</router-link>
-                  <!-- <a class='insideBtn'>查看</a> -->
                 </el-col>
               </el-row>
           </el-main>
@@ -86,7 +85,7 @@ export default {
   height: 100vh;
   text-align: center;
   color: white;
-  font-size: 36px;
+  font-size: 2.5rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -95,8 +94,8 @@ export default {
   /* z-index: 100; */
 }
 .header {
-  height: 25vh !important;
-  padding-top: 30px;
+  height: 20vh !important;
+  padding-top: 4vh;
 }
 .header a{
   color:white;
@@ -104,7 +103,12 @@ export default {
 .main{
   text-align: left;
 }
-
+.main h1{
+  margin:1% 0;
+}
+.main h6{
+  margin:5% 0;
+}
 .about{
   display:inline-block;
   cursor: pointer;
