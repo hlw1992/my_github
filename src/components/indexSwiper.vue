@@ -49,8 +49,8 @@
 </template>
 
 <script>
+import animate from 'animate.css'
 import 'font-awesome/css/font-awesome.min.css'
-import animate from "animate.css"
 import CompMask from "./mask.vue"
 
 export default {
@@ -60,7 +60,7 @@ export default {
       carouselArr:[
         {url:require('@/assets/images/1.jpg'),toolName:'每日一言',toolDescribtion:'随机的一句话',toolPath:'/tools/quote'},
         {url:require('@/assets/images/2.jpg'),toolName:'弹幕',toolDescribtion:'发射弹幕, 可以更改弹幕颜色',toolPath:'/tools/bulletScreen'},
-        {url:require('@/assets/images/3.jpg'),toolName:'搜索',toolDescribtion:'查找wikipedia的内容(需科学上网)',toolPath:'/tools/searchWiki'},
+        {url:require('@/assets/images/3.jpg'),toolName:'搜索',toolDescribtion:'搜索wikipedia(需科学上网)',toolPath:'/tools/searchWiki'},
         {url:require('@/assets/images/4.jpg'),toolName:'计算器',toolDescribtion:'常规计算功能',toolPath:'/tools/calc'},
         {url:require('@/assets/images/5.jpg'),toolName:'番茄计时',toolDescribtion:'仿番茄倒计时',toolPath:'/tools/timeout'}
       ],

@@ -28,7 +28,7 @@
             <div>
               <h3>关于我</h3>
               <div style="margin: 20px 90% 20px 0;border-top:3px solid #B99D61;"></div>
-              <p>一个非典型处女座的90后，WEB和移动前端初级开发(api调用员-_-||)。向中级开发努力中。</p>
+              <p>一个非典型处女座的90后，WEB和移动前端开发(api调用员-.-||)。向中级开发努力中。</p>
             </div>
           </el-col>
           <el-col :span="7" :offset="1">

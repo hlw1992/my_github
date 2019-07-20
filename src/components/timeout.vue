@@ -32,6 +32,9 @@
 </template>
 
 <script>
+import animate from 'animate.css'
+import 'font-awesome/css/font-awesome.min.css'
+
 export default {
   data () {
     return {

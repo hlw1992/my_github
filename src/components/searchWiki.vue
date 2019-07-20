@@ -34,8 +34,9 @@
 // const axios = require("axios");
 // axios不能跨域, 用npm install jsonp --save
 const jsonp = require("jsonp");
+import animate from 'animate.css'
+import 'font-awesome/css/font-awesome.min.css'
 
-import "font-awesome/css/font-awesome.min.css";
 export default {
   name: "searchWiki",
   data() {

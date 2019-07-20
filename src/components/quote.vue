@@ -30,7 +30,7 @@
 
 <script>
 const axios = require("axios");
-// import animate from "animate.css";
+import animate from "animate.css";
 import "font-awesome/css/font-awesome.min.css";
 export default {
   name:'childQuote',

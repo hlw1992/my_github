@@ -88,8 +88,9 @@
 <script>
 const axios = require("axios");
 // const jsonp = require("jsonp");
-// import animate from "animate.css";
-import "font-awesome/css/font-awesome.min.css";
+import animate from 'animate.css'
+import 'font-awesome/css/font-awesome.min.css'
+
 export default {
   name: "bulletScreen",
   data() {

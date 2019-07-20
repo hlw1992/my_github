@@ -50,6 +50,8 @@
 
 <script>
 // 有个需求未实现: 监听键盘事件 输入数字和符号
+import animate from 'animate.css'
+import 'font-awesome/css/font-awesome.min.css'
 export default {
 	data() {
 		return {
@@ -156,7 +158,7 @@ export default {
 	position: relative;
 }
 .main {
-	background-color: #333333;
+	background-color: #535C6C;
 	border-radius: 5px;
 	position: absolute;
 	height: 90%;
